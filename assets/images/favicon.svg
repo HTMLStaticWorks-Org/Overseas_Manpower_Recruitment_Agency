@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="gh-bg" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0A1128"/>
+      <stop offset="55%" stop-color="#3B1D82"/>
+      <stop offset="100%" stop-color="#6D28D9"/>
+    </linearGradient>
+    <linearGradient id="gh-gold" x1="16" y1="48" x2="50" y2="14" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#FDE047"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="url(#gh-bg)"/>
+  <circle cx="32" cy="32" r="18" stroke="#FFFFFF" stroke-opacity="0.28" stroke-width="1.75"/>
+  <ellipse cx="32" cy="32" rx="9" ry="18" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="1.5"/>
+  <path d="M15 26.5H49M15 37.5H49" stroke="#FFFFFF" stroke-opacity="0.3" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M18 44C23.5 34 31.5 26.5 46.5 18.5" stroke="url(#gh-gold)" stroke-width="3.2" stroke-linecap="round"/>
+  <path d="M38.5 17.5L47.5 18L44.5 26.5" stroke="url(#gh-gold)" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="20.5" cy="41.5" r="2.5" fill="#FDE047"/>
+</svg>
+

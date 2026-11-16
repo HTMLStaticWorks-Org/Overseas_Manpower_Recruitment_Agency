@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="gh-mark-bg" x1="4" y1="4" x2="60" y2="60" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0A1128"/>
+      <stop offset="55%" stop-color="#3B1D82"/>
+      <stop offset="100%" stop-color="#6D28D9"/>
+    </linearGradient>
+    <linearGradient id="gh-mark-gold" x1="16" y1="46" x2="48" y2="16" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#FDE047"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="60" height="60" rx="16" fill="url(#gh-mark-bg)" stroke="#D4AF37" stroke-opacity="0.45" stroke-width="1.5"/>
+  <circle cx="32" cy="32" r="17.5" stroke="#FFFFFF" stroke-opacity="0.3" stroke-width="1.6"/>
+  <ellipse cx="32" cy="32" rx="8.5" ry="17.5" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="1.4"/>
+  <path d="M15.5 26.5H48.5M15.5 37.5H48.5" stroke="#FFFFFF" stroke-opacity="0.28" stroke-width="1.4" stroke-linecap="round"/>
+  <path d="M18.5 43.5C24 33.5 32 26 46 18.5" stroke="url(#gh-mark-gold)" stroke-width="3.2" stroke-linecap="round"/>
+  <path d="M38 17.5L47 18L44 26.5" stroke="url(#gh-mark-gold)" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="20.5" cy="41.5" r="2.5" fill="#FDE047"/>
+</svg>
+
