@@ -80,9 +80,12 @@
   <aside id="mobile-menu-drawer" class="fixed top-0 right-0 h-full w-80 max-w-[85vw] bg-white dark:bg-navy-900 z-50 translate-x-full transition-transform duration-300 shadow-2xl border-l border-slate-200 dark:border-white/10 flex flex-col justify-between p-6 overflow-y-auto">
     <div>
       <div class="flex items-center justify-between pb-5 border-b border-slate-200 dark:border-white/10">
-        <div class="flex items-center gap-2.5">
-          <img src="assets/images/logo-mark.svg" alt="GlobeHire" class="w-9 h-9">
-          <span class="font-display text-lg font-bold text-navy-900 dark:text-white">Globe<span class="text-royal-600 dark:text-gold-400">Hire</span></span>
+        <div class="flex items-center gap-3">
+          <img src="assets/images/logo-mark.svg" alt="GlobeHire Logo" class="w-10 h-10">
+          <div class="flex flex-col leading-none">
+            <span class="font-display text-xl font-bold tracking-tight text-navy-900 dark:text-white">Globe<span class="text-royal-600 dark:text-gold-400">Hire</span></span>
+            <span class="text-[10px] font-semibold uppercase tracking-[0.18em] text-slate-500 dark:text-slate-400 mt-0.5">Global Careers</span>
+          </div>
         </div>
         <button type="button" id="mobile-menu-close" class="p-2 rounded-lg text-slate-500 hover:text-navy-900 dark:text-slate-400 dark:hover:text-white" aria-label="Close menu">
           <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
@@ -390,7 +393,7 @@
             <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=80" alt="Luxury Hospitality and Hotels" class="w-full h-full object-cover">
             <div class="absolute inset-0 bg-gradient-to-t from-navy-950/90 via-navy-950/30 to-transparent"></div>
             <div class="absolute bottom-0 inset-x-0 p-6">
-              <h3 class="font-display text-xl font-bold text-white">Hospitality &amp; Hotels</h3>
+              <h3 class="font-display text-lg lg:text-xl font-bold text-white whitespace-nowrap">Hospitality</h3>
               <p class="text-xs text-slate-200 mt-1">5-star chefs, guest relations &amp; F&amp;B leaders</p>
             </div>
           </a>
@@ -400,7 +403,7 @@
             <img src="https://images.unsplash.com/photo-1513828583688-c52646db42da?auto=format&fit=crop&w=800&q=80" alt="Oil and Gas offshore energy facility" class="w-full h-full object-cover">
             <div class="absolute inset-0 bg-gradient-to-t from-navy-950/90 via-navy-950/30 to-transparent"></div>
             <div class="absolute bottom-0 inset-x-0 p-6">
-              <h3 class="font-display text-xl font-bold text-white">Oil &amp; Gas</h3>
+              <h3 class="font-display text-lg lg:text-xl font-bold text-white whitespace-nowrap">Oil &amp; Gas</h3>
               <p class="text-xs text-slate-200 mt-1">Refinery technicians, rig &amp; piping specialists</p>
             </div>
           </a>
@@ -410,31 +413,31 @@
             <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=800&q=80" alt="Manufacturing and automated factory" class="w-full h-full object-cover">
             <div class="absolute inset-0 bg-gradient-to-t from-navy-950/90 via-navy-950/30 to-transparent"></div>
             <div class="absolute bottom-0 inset-x-0 p-6">
-              <h3 class="font-display text-xl font-bold text-white">Manufacturing &amp; Factory</h3>
+              <h3 class="font-display text-lg lg:text-xl font-bold text-white whitespace-nowrap">Manufacturing</h3>
               <p class="text-xs text-slate-200 mt-1">CNC machinists, PLC &amp; assembly operators</p>
             </div>
           </a>
 
           <!-- Horizontal Split Cards Row: 6, 7, 8 -->
-          <a href="jobs.html?industry=Driving%20%26%20Logistics" class="md:col-span-4 flex items-center gap-4 p-4 rounded-2xl bg-white dark:bg-navy-800/90 border border-slate-200 dark:border-white/10 hover:border-royal-500 dark:hover:border-gold-400 transition-all group shadow-sm" data-aos="fade-right">
-            <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=400&q=80" alt="Driving and Logistics fleet" class="w-24 h-24 rounded-xl object-cover shrink-0 group-hover:scale-105 transition-transform">
-            <div>
+          <a href="jobs.html?industry=Driving%20%26%20Logistics" class="md:col-span-4 flex flex-row md:flex-col lg:flex-row items-center md:items-start lg:items-center gap-4 p-4 rounded-2xl bg-white dark:bg-navy-800/90 border border-slate-200 dark:border-white/10 hover:border-royal-500 dark:hover:border-gold-400 transition-all group shadow-sm" data-aos="fade-right">
+            <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=400&q=80" alt="Driving and Logistics fleet" class="w-24 h-24 md:w-full md:h-32 lg:w-24 lg:h-24 rounded-xl object-cover shrink-0 group-hover:scale-105 transition-transform">
+            <div class="min-w-0">
               <h3 class="font-display text-lg font-bold text-navy-900 dark:text-white group-hover:text-royal-600 dark:group-hover:text-gold-400">Driving &amp; Logistics</h3>
               <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">Heavy trailer drivers, fleet &amp; port logistics.</p>
             </div>
           </a>
 
-          <a href="jobs.html?industry=IT%20%26%20Technology" class="md:col-span-4 flex items-center gap-4 p-4 rounded-2xl bg-white dark:bg-navy-800/90 border border-slate-200 dark:border-white/10 hover:border-royal-500 dark:hover:border-gold-400 transition-all group shadow-sm" data-aos="fade-up">
-            <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=400&q=80" alt="IT and Technology professionals" class="w-24 h-24 rounded-xl object-cover shrink-0 group-hover:scale-105 transition-transform">
-            <div>
+          <a href="jobs.html?industry=IT%20%26%20Technology" class="md:col-span-4 flex flex-row md:flex-col lg:flex-row items-center md:items-start lg:items-center gap-4 p-4 rounded-2xl bg-white dark:bg-navy-800/90 border border-slate-200 dark:border-white/10 hover:border-royal-500 dark:hover:border-gold-400 transition-all group shadow-sm" data-aos="fade-up">
+            <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=400&q=80" alt="IT and Technology professionals" class="w-24 h-24 md:w-full md:h-32 lg:w-24 lg:h-24 rounded-xl object-cover shrink-0 group-hover:scale-105 transition-transform">
+            <div class="min-w-0">
               <h3 class="font-display text-lg font-bold text-navy-900 dark:text-white group-hover:text-royal-600 dark:group-hover:text-gold-400">IT &amp; Technology</h3>
               <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">Cloud engineers, DevOps &amp; enterprise systems.</p>
             </div>
           </a>
 
-          <a href="jobs.html?industry=Facility%20Management" class="md:col-span-4 flex items-center gap-4 p-4 rounded-2xl bg-white dark:bg-navy-800/90 border border-slate-200 dark:border-white/10 hover:border-royal-500 dark:hover:border-gold-400 transition-all group shadow-sm" data-aos="fade-left">
-            <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=400&q=80" alt="Facility Management commercial building" class="w-24 h-24 rounded-xl object-cover shrink-0 group-hover:scale-105 transition-transform">
-            <div>
+          <a href="jobs.html?industry=Facility%20Management" class="md:col-span-4 flex flex-row md:flex-col lg:flex-row items-center md:items-start lg:items-center gap-4 p-4 rounded-2xl bg-white dark:bg-navy-800/90 border border-slate-200 dark:border-white/10 hover:border-royal-500 dark:hover:border-gold-400 transition-all group shadow-sm" data-aos="fade-left">
+            <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=400&q=80" alt="Facility Management commercial building" class="w-24 h-24 md:w-full md:h-32 lg:w-24 lg:h-24 rounded-xl object-cover shrink-0 group-hover:scale-105 transition-transform">
+            <div class="min-w-0">
               <h3 class="font-display text-lg font-bold text-navy-900 dark:text-white group-hover:text-royal-600 dark:group-hover:text-gold-400">Facility Management</h3>
               <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">HVAC, BMS &amp; commercial MEP supervisors.</p>
             </div>
@@ -554,37 +557,37 @@
           <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-6">
             <div class="relative p-6 rounded-2xl bg-white/5 backdrop-blur-md border border-white/10 hover:border-gold-400/50 transition-all" data-aos="fade-up" data-aos-delay="0">
               <div class="w-12 h-12 rounded-full bg-royal-600 text-white font-display font-bold flex items-center justify-center mb-5 timeline-pulse">01</div>
-              <h3 class="font-display text-lg font-bold text-white">Registration</h3>
+              <h3 class="font-display text-base xl:text-lg font-bold text-white whitespace-nowrap">Registration</h3>
               <p class="mt-2 text-xs text-slate-300 leading-relaxed">Create your candidate profile and upload verified credentials.</p>
             </div>
 
             <div class="relative p-6 rounded-2xl bg-white/5 backdrop-blur-md border border-white/10 hover:border-gold-400/50 transition-all" data-aos="fade-up" data-aos-delay="80">
               <div class="w-12 h-12 rounded-full bg-royal-600 text-white font-display font-bold flex items-center justify-center mb-5">02</div>
-              <h3 class="font-display text-lg font-bold text-white">Profile Screening</h3>
+              <h3 class="font-display text-base xl:text-lg font-bold text-white whitespace-nowrap">Screening</h3>
               <p class="mt-2 text-xs text-slate-300 leading-relaxed">Specialists match your trade skills with global employer mandates.</p>
             </div>
 
             <div class="relative p-6 rounded-2xl bg-white/5 backdrop-blur-md border border-white/10 hover:border-gold-400/50 transition-all" data-aos="fade-up" data-aos-delay="160">
               <div class="w-12 h-12 rounded-full bg-royal-600 text-white font-display font-bold flex items-center justify-center mb-5">03</div>
-              <h3 class="font-display text-lg font-bold text-white">Interview</h3>
+              <h3 class="font-display text-base xl:text-lg font-bold text-white whitespace-nowrap">Interview</h3>
               <p class="mt-2 text-xs text-slate-300 leading-relaxed">Structured technical or video interviews with hiring managers.</p>
             </div>
 
             <div class="relative p-6 rounded-2xl bg-white/5 backdrop-blur-md border border-white/10 hover:border-gold-400/50 transition-all" data-aos="fade-up" data-aos-delay="240">
               <div class="w-12 h-12 rounded-full bg-royal-600 text-white font-display font-bold flex items-center justify-center mb-5">04</div>
-              <h3 class="font-display text-lg font-bold text-white">Documentation</h3>
+              <h3 class="font-display text-base xl:text-lg font-bold text-white whitespace-nowrap">Documentation</h3>
               <p class="mt-2 text-xs text-slate-300 leading-relaxed">Degree attestation, medical clearance, and offer verification.</p>
             </div>
 
             <div class="relative p-6 rounded-2xl bg-white/5 backdrop-blur-md border border-white/10 hover:border-gold-400/50 transition-all" data-aos="fade-up" data-aos-delay="320">
               <div class="w-12 h-12 rounded-full bg-royal-600 text-white font-display font-bold flex items-center justify-center mb-5">05</div>
-              <h3 class="font-display text-lg font-bold text-white">Visa Processing</h3>
+              <h3 class="font-display text-base xl:text-lg font-bold text-white whitespace-nowrap">Visa</h3>
               <p class="mt-2 text-xs text-slate-300 leading-relaxed">Work permit coordination and embassy submission guidance.</p>
             </div>
 
             <div class="relative p-6 rounded-2xl bg-white/5 backdrop-blur-md border border-white/10 hover:border-gold-400/50 transition-all" data-aos="fade-up" data-aos-delay="400">
               <div class="w-12 h-12 rounded-full bg-gold-500 text-navy-950 font-display font-bold flex items-center justify-center mb-5">06</div>
-              <h3 class="font-display text-lg font-bold text-white">Departure</h3>
+              <h3 class="font-display text-base xl:text-lg font-bold text-white whitespace-nowrap">Departure</h3>
               <p class="mt-2 text-xs text-slate-300 leading-relaxed">Pre-departure briefing, flight scheduling, and arrival support.</p>
             </div>
           </div>
@@ -736,8 +739,8 @@
           <a href="index.html" class="flex items-center gap-3">
             <img src="assets/images/logo-mark.svg" alt="GlobeHire Logo" class="w-10 h-10">
             <div class="flex flex-col leading-none">
-              <span class="font-display text-xl font-bold text-navy-900 dark:text-white">Globe<span class="text-royal-600 dark:text-gold-400">Hire</span></span>
-              <span class="text-[10px] uppercase tracking-[0.18em] text-slate-500 dark:text-slate-400 mt-0.5">Global Career Opportunities</span>
+              <span class="font-display text-xl font-bold tracking-tight text-navy-900 dark:text-white">Globe<span class="text-royal-600 dark:text-gold-400">Hire</span></span>
+              <span class="text-[10px] font-semibold uppercase tracking-[0.18em] text-slate-500 dark:text-slate-400 mt-0.5">Global Careers</span>
             </div>
           </a>
           <p class="mt-4 text-sm text-slate-600 dark:text-slate-400 leading-relaxed max-w-sm">
@@ -806,16 +809,18 @@
       <!-- Bottom Bar + Back to Top -->
       <div class="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500 dark:text-slate-400">
         <p>&copy; 2026 GlobeHire – Global Career Opportunities.</p>
-        <div class="flex items-center gap-6">
+        <div class="flex items-center gap-6 sm:pr-14">
           <a href="process.html#documentation" class="hover:text-navy-900 dark:hover:text-white transition-colors">Privacy Policy</a>
           <a href="process.html#compliance" class="hover:text-navy-900 dark:hover:text-white transition-colors">Terms of Service</a>
-          <button type="button" id="back-to-top" class="w-10 h-10 rounded-full bg-royal-600 hover:bg-royal-700 dark:hover:bg-gold-500 text-white dark:hover:text-navy-950 flex items-center justify-center shadow-lg transition-all duration-300 hover:-translate-y-1" aria-label="Back to top">
-            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 15l7-7 7 7"/></svg>
-          </button>
         </div>
       </div>
     </div>
   </footer>
+
+  <!-- Floating Back to Top Button -->
+  <button type="button" id="back-to-top" class="fixed bottom-6 right-6 z-40 w-10 h-10 rounded-full bg-royal-600 hover:bg-royal-700 dark:hover:bg-gold-500 text-white dark:hover:text-navy-950 flex items-center justify-center shadow-lg transition-all duration-300 hover:-translate-y-1" aria-label="Back to top">
+    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 15l7-7 7 7"/></svg>
+  </button>
 
   <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
   <script src="assets/js/main.js"></script>
